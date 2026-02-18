@@ -1,1 +1,1 @@
-shinylive::export(appdir = "ch00/", destdir = "ch00/docs")
+shinylive::export(appdir = "ch00/", destdir = "ch00/")
