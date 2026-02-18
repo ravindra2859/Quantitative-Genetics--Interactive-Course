@@ -1,1 +1,1 @@
-# Quantitative-Genetics--Interactive-Course
+# Breeding Concepts - Interactive Course
