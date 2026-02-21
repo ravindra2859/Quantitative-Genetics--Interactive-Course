@@ -21,13 +21,12 @@ ch01_server <- function(id) {
         tags$p(
           "Selection response describes the expected change in the population mean ",
           "for a trait after one cycle of selection. It quantifies how much genetic ",
-          "improvement is achieved when superior individuals are selected and used ",
-          "as parents for the next generation."
+          "improvement is achieved when superior individuals are selected."
         ),
         
         tags$p(
-          "The magnitude of response depends primarily on selection intensity, ",
-          "heritability, and the phenotypic variation present in the population."
+          "The magnitude of response depends primarily on selection intensity (i), ",
+          "heritability (h<sup>2</sup>), and the phenotypic standard deviation (σ<sub>P</sub>)."
         ),
         
         # Formula box

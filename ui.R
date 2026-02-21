@@ -2,13 +2,13 @@ library(shiny)
 library(bslib)
 
 ui <- page_sidebar(
-  title = "Quantitative Genetics — Interactive Course",
+  title = "Interactive Breeding Concepts",
   theme = bs_theme(version = 5),
   
   sidebar = sidebar(
     width = 320,
-    tags$h4("Chapters"),
-    tags$p("Select a chapter:"),
+    tags$h4("Chapters/Concept"),
+    tags$p("Select a chapter/concept:"),
     
     radioButtons(
       inputId = "chapter",
